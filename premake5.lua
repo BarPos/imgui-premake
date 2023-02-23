@@ -7,8 +7,10 @@ project "ImGui"
 
 	files
 	{
-		"**.h",
-        "**.cpp"
+		"*.h",
+        "*.cpp",
+        "misc/**.h",
+        "misc/**.cpp"
 	}
 
     includedirs {
