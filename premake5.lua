@@ -12,6 +12,7 @@ project "ImGui"
 	}
 
     includedirs {
+        "%{IncludeDir.imgui}",
         "%{IncludeDir.glfw}",
         "%{IncludeDir.VulkanSDK}"
     }
