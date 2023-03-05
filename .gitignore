@@ -36,6 +36,19 @@ JSON/
 project.xcworkspace
 xcuserdata
 
+# Project
+.vs
+build
+
+*.sln
+*.vcxproj
+*.vcxproj.*
+*/*.vcxproj
+*/*.vcxproj.*
+
+Makefile
+*/Makefile
+
 ## Emscripten artifacts
 examples/*.o.tmp
 examples/*.out.js
