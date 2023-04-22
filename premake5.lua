@@ -13,16 +13,10 @@ project "ImGui"
 	}
 
     includedirs {
-        "%{IncludeDir.imgui}",
-        "%{IncludeDir.glfw}",
-        "%{IncludeDir.VulkanSDK}"
+        "/"
     }
 
     links {
-        "GLFW",
-        "opengl32.lib",
-        "%{Library.Vulkan}",
-        "%{Library.VulkanUtils}"
     }
 
 	filter "system:windows"
